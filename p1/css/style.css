@@ -1,0 +1,99 @@
+/* Created by Reenu Chahal */
+body{
+font-family: 'Quattrocento', serif;font-weight: 400;
+font-size:18px;
+line-height:30px;
+word-spacing:2px;
+}
+
+aside{
+font-size:16px;
+padding-top:50px;
+} 
+
+h1, h2, h3, h4, h5, h6 { 
+font-family: 'Quattrocento', serif;
+font-weight: 700; 
+}
+header, footer {
+letter-spacing:0.06em;
+ color:#fafafa;
+}
+
+p {
+margin:20px 0;
+}
+
+
+
+/* Classes Alphabetically arranged*/
+
+.col-sm-8, .col-lg-8 {
+padding:20px
+}
+.fb img:hover, .linkedin img:hover , .twitter img:hover {
+background-image: url('../images/twitter.png');
+}
+
+.mainContent{
+border: 1px solid #f6f6f6;
+border-radius: 0px 180px 0px 180px;
+background-color:#f6f6f6;
+padding:10px;
+}
+.pageHeading, .pageFooter {
+background-color:#C2AE95;
+border: 1px solid #C2AE95;
+}
+
+.pageHeading{
+border-radius: 1px 180px 1px 0px;
+}
+
+.pageFooter {
+border-radius: 0px 1px 1px 180px;
+float: right;
+text-align:right;
+}
+.well {
+margin-top:20px;
+}
+
+
+
+
+/* All media queries here*/
+
+@media (max-width:767px){
+
+/* Elements */
+article h2 {
+text-align:center;
+}
+
+aside{
+padding-top:0px;
+}
+aside h3 {
+margin-top:30px;
+}
+
+/* Classes */ 
+.mainContent{
+border: 0px solid #F6F4F0;
+border-radius: 0px;
+background-color:#fafafa;
+}
+.pageHeading, .pageFooter {
+border: 0px solid #F6F4F0;
+border-radius: 0px 0px 0px;
+padding:20px;
+float: none !important;
+text-align:center;
+
+}
+.well {
+margin-top:0 !important;
+}
+
+}
