@@ -16,18 +16,14 @@ if ($_POST) {
 			if ($value != "") {
 				if ($random_number == $winning_number){
 					$contestants[$value] = "Winner!";
-					$to = $contestants[$value]; 
-					$subject = "Test mail";
-					$message = "Hello! you are a winner.";
-					$from = "reenuchahal@hotmail.com";
-					$headers = "From:" . $from;
-					mail($to,$subject,$message,$headers);
-	        
 				}
 				else {
 			
 					$contestants[$value] = "Loser :(";
 				}
+			}
+			else {
+			   echo "Form field is empty. Please fill up the form.";
 			}		
 		}	
  }   
