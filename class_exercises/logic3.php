@@ -16,7 +16,7 @@ if ($_POST) {
 			if ($value != "") {
 				if ($random_number == $winning_number){
 					$contestants[$value] = "Winner!";
-					$to = $key; 
+					$to = $contestants[$value]; 
 					$subject = "Test mail";
 					$message = "Hello! you are a winner.";
 					$from = "reenuchahal@hotmail.com";
