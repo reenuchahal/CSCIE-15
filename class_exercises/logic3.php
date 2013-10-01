@@ -22,9 +22,7 @@ if ($_POST) {
 					$contestants[$value] = "Loser :(";
 				}
 			}
-			else {
-			   echo "Form field is empty. Please fill up the form.";
-			}		
+					
 		}	
  }   
 ?>
