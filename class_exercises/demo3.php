@@ -23,7 +23,13 @@ Enter the contestants <br/>
     The Winning number is <?=$winning_number;?>.<br/><br/>
     
 	<?php foreach($contestants as $key => $value): ?>
-	        
+	                <?php $to = $key; 
+					$subject = "Test mail";
+					$message = "Hello! you are a winner.";
+					$from = "reenuchahal@hotmail.com";
+					$headers = "From:" . $from;
+					mail($to,$subject,$message,$headers);
+	        ?>
 	<?=$key?> is a <?=$value?>. <br/>
 	<?php endforeach; ?>
 <?php endif; ?>

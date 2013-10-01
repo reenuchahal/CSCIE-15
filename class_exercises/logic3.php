@@ -14,16 +14,6 @@ if ($_POST) {
 		# see if their generated random number matches the winning number and store the results in the $contestants array
 		
 			if ($value != "") {
-			
-			   
-	        $to = $contestants[$value]; 
-			$subject = "Test mail";
-			$message = "Hello! This is a simple email message.";
-			$from = "reenuchahal@hotmail.com";
-			$headers = "From:" . $from;
-			mail($to,$subject,$message,$headers);
-			
-			
 				if ($random_number == $winning_number){
 					$contestants[$value] = "Winner!";
 				}
