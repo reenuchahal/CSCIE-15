@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="20" version="2.0">
+<workbenchAdvisor/>
+<mruList>
+<file factoryID="org.zend.php.common.welcome.WelcomePageEditorInput" id="org.zend.customization.welcome.welcomePageEditor" name="Welcome" tooltip="Welcome">
+<persistable categories="true" discoveryFile="/pdt_directory.xml" id="welcomeBrowser" progressDialogMsg="Updating Zend Eclipse PDT" style="16" url="file:/Users/reenuchahal/Downloads/zend-eclipse-php/plugins/org.zend.php.common_10.0.1.201307161142/resources/welcome/PDT-welcome-page.html"/>
+</file>
+</mruList>
+</workbench>
