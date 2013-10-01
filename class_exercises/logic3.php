@@ -16,13 +16,13 @@ if ($_POST) {
 			if ($value != "") {
 				if ($random_number == $winning_number){
 					$contestants[$value] = "Winner!";
-					<?php $to = $key; 
+					$to = $key; 
 					$subject = "Test mail";
 					$message = "Hello! you are a winner.";
 					$from = "reenuchahal@hotmail.com";
 					$headers = "From:" . $from;
 					mail($to,$subject,$message,$headers);
-	        ?>
+	        
 				}
 				else {
 			
